@@ -147,32 +147,39 @@
     padding-left: 0;
 }
 .item{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_boxed{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_block{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_block_box{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_box_block{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_block_boxing{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .item_block_boxed{
-    border: 1px solid rgb(126, 126, 126);
     background: #EEEEEE;
+    border: 1px solid #cacaca;
+    padding-top: 5px;
 }
 .before{
     background: blue;
@@ -230,7 +237,7 @@
 }
 .block_top_box{
     position: relative;
-    border: 1px solid rgb(126, 126, 126);
+    border: 1px solid #d8d8d8;
 }
 .block_top_box a{
     position: absolute;
@@ -270,7 +277,7 @@
     display: flex;
 }
 .block_bottm_box{
-    border: 1px solid rgb(126, 126, 126);
+    border: 1px solid #d8d8d8;
     background: #F6F6F6;
 }
 .block_bottm_box_button a button{
@@ -289,7 +296,7 @@
 .block_bottm_box_img_two{
     position: absolute;
     bottom: 0px;
-    right: 1px;
+    left: 100px;
 }
 .block_bottm_box{
     position: relative;
@@ -406,4 +413,68 @@
 .footer_left_box p{
     color: #999999;
     font-size: 13px;
+}
+.main_left ul{
+    padding-right: 30px;
+}
+.main_left a{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.menu ul{
+    justify-content: space-between;
+}
+.item_box{
+    padding-left: 0;
+    padding-right: 15px;
+}
+.item_box a i{
+    padding-left: 30px;
+}
+.box{
+    justify-content: space-between;
+}
+.box_container{
+    padding: 0;
+}
+.block_top{
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.block_bottm{
+    justify-content: space-between;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    background: #C91717;
+    padding: 10px;
+}
+.block_top_box a{
+    text-decoration: none;
+    color: white;
+    background:  #1B78CC;
+    padding: 5px;
+}
+.block_bottm_box a{
+    text-decoration: none;
+    color: white;
+    background:  #1B78CC;
+    padding: 5px;
+}
+.span{
+        height: 2px;
+        margin-bottom: 2px;
+        width: 20px;
+        background: white;
+}
+.span_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+.block{
+    width: 100%;
 }
