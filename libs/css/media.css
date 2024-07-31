@@ -63,6 +63,9 @@
         height: 80%;
         padding-left: 9%;
     }
+    .main_left ul {
+        padding-right: 0;
+    }
 }
 
 
@@ -78,6 +81,9 @@
 @media all and (max-width: 767px){
     .block_top_box {
         width: 100%;
+    }
+    .menu_block ul {
+        flex-direction: column;
     }
     .block .block_top_box:first-child {
         width: 100%;
